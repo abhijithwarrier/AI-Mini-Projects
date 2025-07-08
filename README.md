@@ -19,3 +19,10 @@ A collection of beginner-friendly AI/ML projects as part of my hands-on learning
 - Clean, modular notebook for reproducibility
 
 ---
+
+## 🛠️ How to Run
+
+1. Clone the repo
+2. Install requirements - `pip install -r requirements.txt`
+3. Navigate to the specific project notebook - `cd <project_name>/notebooks`
+4. Open Jupyter and run the notebook - Example: `jupyter notebook <model_filname>.ipynb`
