@@ -10,13 +10,9 @@ A collection of beginner-friendly AI/ML projects as part of my hands-on learning
 
 **Goal**: Predict whether a passenger survived the Titanic disaster based on demographic and travel information.
 
-**What’s Implemented**:
-- Data cleaning & feature selection
-- Pipelines using `ColumnTransformer`
-- Imputation, scaling, and OneHotEncoding
-- Model training using `RandomForestClassifier`
-- Evaluation with Accuracy, Precision, Recall, F1 Score
-- Clean, modular notebook for reproducibility
+### 🧥 Project 2: Fashion MNIST Classifier
+
+**Goal**: Build and train a neural network to classify images of clothing items from the Fashion MNIST dataset with high accuracy
 
 ---
 

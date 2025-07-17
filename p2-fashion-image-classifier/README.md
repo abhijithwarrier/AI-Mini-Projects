@@ -4,7 +4,7 @@ A Convolutional Neural Network (CNN) built using TensorFlow/Keras to classify im
 
 ---
 
-# 📦 <u>Dataset:</u>
+## 📦 <u>Dataset:</u>
 - Fashion MNIST (from tf.keras.datasets)
 - 60,000 training images, 10,000 test images
 - 10 classes:
@@ -18,7 +18,7 @@ A Convolutional Neural Network (CNN) built using TensorFlow/Keras to classify im
 
 ---
 
-# 🧠 <u>Model Architecture:</u>
+## 🧠 <u>Model Architecture:</u>
 ````
 Sequential([
     Conv2D(32, (3,3), activation='relu', input_shape=(28, 28, 1)),
@@ -33,7 +33,7 @@ Sequential([
 
 ---
 
-# ⚙️ <u>Training Details:</u>
+## ⚙️ <u>Training Details:</u>
 - Optimizer: Adam
 - Loss Function: Sparse Categorical Crossentropy
 - Epochs: 5
@@ -42,7 +42,7 @@ Sequential([
 
 ---
 
-# 🧪 <u>Results:</u>
+## 🧪 <u>Results:</u>
 
 | Metric        | Value | 
 |---------------|------|
@@ -52,21 +52,21 @@ Sequential([
 
 ---
 
-# 📈 <u>Sample Predictions:</u>
+## 📈 <u>Sample Predictions:</u>
 
 Predicted vs True (first 5 test images):
 ✅ All predictions matched the ground truth labels.
 
 ---
 
-# 💾 <u>Model Saving & Loading</u>
+## 💾 <u>Model Saving & Loading</u>
 - Saved using model.save("fashion_model.h5")
 - Loaded using load_model("fashion_model.h5")
 - Accuracy retained after loading: ✅
 
 ---
 
-# 📌 <u>Highlights:</u>
+## 📌 <u>Highlights:</u>
 - Used TensorFlow’s tf.data pipeline for efficient loading 
 - Verified GPU availability (though training done on CPU for macOS)
 - Discussed training speedups: large batch sizes, prefetching
